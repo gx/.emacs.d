@@ -77,6 +77,9 @@
 ;; Enable Show Paren mode.
 (show-paren-mode 1)
 
+;; Set the size of a frame in pixels.
+(setq frame-resize-pixelwise t)
+
 ;; Open file or url at point.
 (global-set-key (kbd "C-x @ f") 'find-file-at-point)
 
